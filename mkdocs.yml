@@ -1,0 +1,4 @@
+site_name: Learn Azure Development
+site_url: https://learnazure.dev
+theme:
+  name: material
