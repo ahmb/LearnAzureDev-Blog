@@ -8,7 +8,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-* `docker build -t docs:1 . && docker run -p 8080:80 docs:1` - For local testing
+* `docker build -t docs:1 . && docker run -p 8080:80 docs:1` - For local testing using docker
 
 ## Project layout
 
