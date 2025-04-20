@@ -75,9 +75,11 @@ plugins:
   - privacy
   - search
   - git-revision-date-localized:
+      enabled: !!bool true
       enable_creation_date: false
       fallback_to_build_date: true
   - git-committers:
+      enabled: !!bool true
       repository: ahmb/LearnAzureDev-Blog
       branch: main
   - offline
