@@ -1,4 +1,70 @@
 site_name: Learn Azure Development
 site_url: https://learnazure.dev
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune 
+    - navigation.indexes 
+    - toc.follow
+    - toc.integrate 
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  logo: assets/images/AzureDeveloperLogo.png
+  favicon: assets/images/favicon_io/favicon.ico
   name: material
+      # primary: black
+      # accent: blue
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: black
+      accent: blue
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage 
+      - reject
+  generator: false
+copyright: >
+  Founded by Ahmad Butt - Copyright &copy; 2025 –
+  <a href="#__consent">Change cookie settings</a>
+plugins:
+  - privacy
+  - search

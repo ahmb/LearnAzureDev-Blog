@@ -1,18 +1,16 @@
-# Welcome to MkDocs
+---
+hide:
+  - path
+  - 
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Main
 
-## Commands
+## Welcome to LearnAzure.dev 👋
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* `docker build -t docs:1 . && docker run -p 8080:80 docs:1` - For local testing using docker
+Your trusty companion for mastering Azure – without the bs. Whether you're prepping for certifications, setting up rock-solid cloud infrastructure, or diving into microservices and event-driven design, we’ve got you covered.
 
-## Project layout
+Expect bite-sized tips, sample code, and real-world best practices that are actually fun to follow. This isn’t just documentation – it’s your go-to toolkit for building cloud apps the right way with lightening fast search.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Dont forget to bookmark us and so you can stay tuned with our regular updates!
+
