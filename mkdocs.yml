@@ -70,8 +70,7 @@ extra:
       - reject
   generator: false
 copyright: >
-  Copyright &copy; 2025 Ahmad Butt
-  <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; 2025 Ahmad Butt - <a href="#__consent">Change cookie settings</a>
 plugins:
   - privacy
   - search
