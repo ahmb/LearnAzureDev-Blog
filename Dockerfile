@@ -2,9 +2,8 @@ FROM squidfunk/mkdocs-material:latest as BUILDER
 WORKDIR /app
 
 # Copy and install Python dependencies
-COPY requirements.txt /app/requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
+# COPY requirements.txt /app/requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
 # Copy MkDocs config and documentation
 COPY mkdocs.yml /app/mkdocs.yml
 COPY docs /app/docs
