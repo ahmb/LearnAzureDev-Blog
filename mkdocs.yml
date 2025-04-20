@@ -1,6 +1,13 @@
 site_name: Learn Azure Development
 site_url: https://learnazure.dev
+repo_url: https://github.com/ahmb/LearnAzureDev-Blog
+repo_name: ahmb/LearnAzureDev-Blog
+edit_uri: edit/main/docs/
 theme:
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -17,7 +24,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-
+    - content.action.edit
   logo: assets/images/AzureDeveloperLogo.png
   favicon: assets/images/favicon_io/favicon.ico
   name: material
@@ -63,8 +70,15 @@ extra:
       - reject
   generator: false
 copyright: >
-  Founded by Ahmad Butt - Copyright &copy; 2025 –
+  Copyright &copy; 2025 Ahmad Butt
   <a href="#__consent">Change cookie settings</a>
 plugins:
   - privacy
   - search
+  - git-revision-date-localized:
+      enable_creation_date: false
+  - git-committers:
+      repository: ahmb/LearnAzureDev-Blog
+      branch: main
+  - offline
+  - tags

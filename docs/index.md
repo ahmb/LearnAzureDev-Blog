@@ -1,7 +1,6 @@
 ---
 hide:
   - path
-  - 
 ---
 
 # Main
