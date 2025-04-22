@@ -19,9 +19,8 @@ tags:
 
 
 ![HealthChecks](./images/hc1.png)
----
 
-### Example Setup
+### Example
 
 #### Dockerfile
 
@@ -30,9 +29,7 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD curl --fail http://localhost:5000/health/live || exit 1
 ```
 
----
-
-#### Kubernetes YAML
+#### Kubernetes
 
 ```yaml
 livenessProbe:
