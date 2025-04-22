@@ -13,7 +13,7 @@ title: Main
 
 # Welcome to LearnAzure.dev 👋
 
-Your trusty companion for mastering Azure – without the bs. Whether you're prepping for certifications, setting up rock-solid cloud infrastructure, or diving into microservices and event-driven design, we’ve got you covered.
+One stop shop for mastering Azure! Whether you're prepping for certifications, setting up rock-solid cloud infrastructure, or diving into microservices and event-driven design, we’ve got you covered.
 
 Expect bite-sized tips, sample code, and real-world best practices that are actually fun to follow.
 

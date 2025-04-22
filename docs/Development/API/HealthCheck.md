@@ -1,5 +1,5 @@
 ---
-title: HealthCheck 
+title: Health Checks 
 
 tags:
   - Kubernetes
@@ -7,7 +7,7 @@ tags:
   - Health
 ---
 
-## API Health Checks
+## Configuration
 
 
 ### Summary
@@ -19,9 +19,8 @@ tags:
 
 
 ![HealthChecks](./images/hc1.png)
----
 
-### Example Setup
+### Example
 
 Check out the [Infrastructure](../../Infrastructure/Kubernetes.md) section for the DockerFile sample.
 

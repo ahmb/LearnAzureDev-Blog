@@ -8,11 +8,11 @@ tags:
   - Automation
 ---
 
-# Automatically Create Postman Collections from OpenAPI/Swagger Specification
+## Automatically Create Postman Collections from OpenAPI/Swagger Specification
 
 Tired of manually creating Postman collections? Now you can use Postman to automatically generate the collection! Simply point it to the OpenApi/Swagger endpoint on your Api! 
 
-## Step 1: Launch API Process with Swagger
+### Step 1: Launch API Process with Swagger
 
 Start your API with Swagger Specifications Enabled. In the case of .NET APIs this can be done via configuring the Startup.cs file or Program.cs file if you're using minimal apis.
 
@@ -71,7 +71,7 @@ Startup.cs - Configure()
 
 Get the link for the swagger.json file which is generated 
 
-## Step2: Import into Postman
+### Step2: Import into Postman
 
 - Open Postman.
 - Click on "Import"
@@ -83,7 +83,7 @@ Get the link for the swagger.json file which is generated
 ![Import2](./images/sw3.png)
 
 
-# Step3: Set the collection type
+## Step3: Set the collection type
 
 Choose on the imported collections specification. Postman Collection is good enough for our purposes, but the OpenAPI 3.0 option might be better if you want interoperability between different HTTP Client apps such as Postman.
 
