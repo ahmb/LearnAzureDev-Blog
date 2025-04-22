@@ -83,7 +83,7 @@ Get the link for the swagger.json file which is generated
 ![Import2](./images/sw3.png)
 
 
-## Step3: Set the collection type
+### Step3: Set the collection type
 
 Choose on the imported collections specification. Postman Collection is good enough for our purposes, but the OpenAPI 3.0 option might be better if you want interoperability between different HTTP Client apps such as Postman.
 
