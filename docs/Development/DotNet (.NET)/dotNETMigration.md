@@ -1,5 +1,5 @@
 ---
-title: .NET Migration - Automatic
+title: .NET Migration
 
 tags:
   - Automated
@@ -12,8 +12,6 @@ tags:
 
 The **.NET Upgrade Assistant** is a powerful tool designed to help you seamlessly **migrate your .NET Framework, .NET Core, or older .NET projects** to the latest version of .NET. Available as both a **Visual Studio extension** and a **command-line interface (CLI)**, it scans your code, flags compatibility issues, and guides you through the upgrade process.
 
----
-
 ### Key Features
 
 - **Automated Code Analysis**: Identifies 
@@ -21,8 +19,6 @@ upgrade needs and generates a comprehensive report.
 - **Guided Upgrade Paths**: Provides wizards for full-project or partial upgrades with multiple options.
 - **Supports Multiple Project Types**: From ASP.NET and Azure Functions to Xamarin and .NET MAUI.
 - **Flexible Upgrade Modes**: Choose between in-place, side-by-side, or incremental upgrades.
-
----
 
 ### Supported Project Types
 
@@ -35,8 +31,6 @@ upgrade needs and generates a comprehensive report.
 - Xamarin Forms → .NET MAUI
 - UWP → WinUI 3
 
----
-
 ### Upgrade Paths
 
 - .NET Framework → .NET
@@ -47,15 +41,11 @@ upgrade needs and generates a comprehensive report.
 
 > 💡 Use Visual Studio 2022 v17.6+ for advanced XAML transformations.
 
----
-
 ### Upgrade Options
 
 - **In-place**: Directly upgrades the existing project.
 - **Side-by-side**: Clones your project and upgrades the copy.
 - **Incremental**: Ideal for complex ASP.NET apps. Route some endpoints to the new .NET app while retaining others.
-
----
 
 ### Interpreting Upgrade Results
 
@@ -70,14 +60,12 @@ upgrade needs and generates a comprehensive report.
 
 Results appear in Visual Studio’s **Upgrade Results** tab and logs are available in the **Output Window** under "Upgrade Assistant".
 
----
-
 ### PostMigration
 
 Don't forget to **thoroughly test** your application to ensure everything functions as expected post-upgrade.
 
----
-
 ### References
 
 - [Upgrade projects with .NET Upgrade Assistant](https://learn.microsoft.com/dotnet/core/porting/upgrade-assistant-overview)
+
+---
