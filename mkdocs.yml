@@ -69,6 +69,9 @@ extra:
       # - manage 
       - reject
   generator: false
+  analytics:
+    provider: google
+    property: G-R2X27PZ4KJ
 copyright: >
   Copyright &copy; 2025 Ahmad Butt - <a href="#__consent">Change cookie settings</a>
 plugins:
